@@ -1,0 +1,90 @@
+.vertical{
+	.verticalText{
+		font-size: 10px!important;
+		margin-left:0!important;
+	}
+	.slot{
+		overflow:hidden;
+	}
+	.radio1, .rnag, .lyricfm, .twofm{
+
+		.slot-regular{
+			display: inline-block;
+		  	vertical-align: middle;
+		  //width: 300px;
+			padding-left: 5%;
+			padding-right:5%;
+		}
+		.slot-large{
+			display: inline-block;
+		  	vertical-align: middle;
+		  	//padding-top:20%;
+		  //width: 300px;
+			padding-left: 5%;
+			padding-right:5%;
+		}
+		.slot-extra-large{
+			display: inline-block;
+		  	vertical-align: middle;
+		  //width: 300px;
+			padding-top:50%;
+			padding-left: 5%;
+			padding-right:5%;
+		}
+		.slot-extra-extra-large{
+			display: inline-block;
+		 	//vertical-align: middle;
+		  //width: 300px;
+			//border: 1px solid $white;
+			padding-top:50%;
+			padding-left: 5%;
+			padding-right:5%;
+		}
+		h1{
+			font-family: $header-font, sans-serif;
+			text-shadow: 1px 1px 1px #000;
+			font-size:1.5em;
+		}
+		img{
+			display: block;
+			max-width: 60px;
+			float:left;
+			margin-right: 1em;
+		}
+	}
+
+	.gold, .pulse, .radio1extra, .junior, .twoxm {
+		text-align:center;
+		.slot-regular{
+			//padding-left: 2%;
+			//padding-right:2%;
+		}
+		.slot-large{
+			//padding-left: 1%;
+			//padding-right:1%;
+		}
+		.slot-extra-large{
+			padding-top:50%;
+			//padding-left: 2%;
+			//padding-right:2%;
+		}
+		.slot-extra-extra-large{
+			//border: 1px solid $white;
+			padding-top:300px;
+			//padding-left: 2%;
+			//padding-right:2%;
+		}
+		img{
+			max-height: 20px;
+			display: block;
+			margin: 0 auto;
+		}
+
+		h1{
+			font-family: $header-font, sans-serif;
+			text-shadow: 1px 1px 1px #000;
+			font-size:0.9em;
+		}
+
+	}
+}

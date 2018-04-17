@@ -1,0 +1,16 @@
+<div class="channel_key" style={{{tracker.menuLocation}}}>
+	<div class="radio1key"></div>
+	<div class="twofmkey"></div>
+	<div class="rnagkey"></div>
+	<div class="lyrickey"></div>
+	<div class="twoxmkey"></div>
+	<div class="goldkey"></div>
+	<div class="juniorkey"></div>
+	<div class="pulsekey"></div>
+	<div class="radio1extrakey"></div>
+</div>
+{{#if tracker.timeStripeActive }}
+<div id="timeStripe" class={{tsClass}}>{{yield}}</div>
+{{else}}
+<div class="ReactivateButton" style={{tracker.TimeStripePosition}}><button class="large warning button" {{action "reActivateTS"}}><i class="fa fa-refresh"></i> Reactivate Schedule</button></div>
+{{/if}}
