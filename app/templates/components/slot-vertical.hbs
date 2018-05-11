@@ -1,0 +1,25 @@
+{{#if (eq index 0)}}
+<div style={{{slots.timeSinceMidnightVertical}}}  class={{{slots.stationClass}}} id={{{slots.slotId}}}>
+	<div class="{{{slots.sizeClass}}}">
+			{{{ slots.imageFormatted}}}
+			{{{slots.titleFormatted }}}
+			{{{ slots.timesFormatted }}}
+			{{{ slots.studioButton }}}
+	</div>
+</div>
+{{else}}
+<div style={{{slots.slotHeight}}}  class={{{slots.stationClass}}}  id={{{slots.slotId}}}>
+	<div class="{{{slots.sizeClass}}}">
+			{{{ slots.imageFormatted}}}
+			
+			{{{slots.titleFormatted }}}
+			
+			{{{ slots.timesFormatted }}}
+			{{#if slots.onair}}
+			<i class="fa fa-circle-o faa-burst animated" style="font-size:12px;"></i>
+			{{/if}}	
+			{{{ slots.studioButton }}}
+		</div>
+</div>
+{{/if}}
+{{yield}}

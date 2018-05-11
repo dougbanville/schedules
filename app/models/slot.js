@@ -63,10 +63,10 @@ export default DS.Model.extend({
 		let html = `height:${size}px; padding-top:${marginTop};  border-bottom: 1px solid white; overflow:hidden;`;
 		return new  Ember.String.htmlSafe(html);
 	}),
-	timeSinceMidnight : Ember.computed('start','slotSize', 'stationClass', function(){
+	timeSinceMidnight : Ember.computed('start','slotSize', 'station', function(){
 		let start = moment(this.get('start'));
 		let midnight = moment().startOf('day');
-		let stationClass = this.get('stationClass');
+		let stationClass = this.get('station');
 		let timesincemidnight = moment(start).diff(moment().startOf('day'));
 		timesincemidnight = moment.duration(timesincemidnight).asHours();
 		timesincemidnight = timesincemidnight * 200;
@@ -76,10 +76,10 @@ export default DS.Model.extend({
 		return new  Ember.String.htmlSafe(html);
 
 	}),
-	timeSinceMidnightVertical : Ember.computed('start','slotSize', 'stationClass', function(){
+	timeSinceMidnightVertical : Ember.computed('start','slotSize', 'station', function(){
 		let start = moment(this.get('start'));
 		let midnight = moment().startOf('day');
-		let stationClass = this.get('stationClass');
+		let stationClass = this.get('station');
 		let timesincemidnight = moment(start).diff(moment().startOf('day'));
 		timesincemidnight = moment.duration(timesincemidnight).asHours();
 		timesincemidnight = timesincemidnight * 200;
@@ -134,7 +134,7 @@ export default DS.Model.extend({
 		}),
 	stationClass : Ember.computed('station_name', 'onair', 'slotSize', function(){
 		let stationClass = this.get('station_name');
-		stationClass = stationClass.replace(2,"two");
+		//stationClass = stationClass.replace(2,"two");
 		let html = `${stationClass}`;
 		return new  Ember.String.htmlSafe(html);
 	}),
@@ -154,11 +154,11 @@ export default DS.Model.extend({
 		if(this.get('onair')){
 			liveClass = `${station_name}_live`;
 		}
-		let stationClass = this.get('station_name');
-		stationClass = stationClass.replace(2,"two");
+		//let stationClass = this.get('station_name');
+		//stationClass = stationClass.replace(2,"two");
 		//return stationClass;
 		let html = `slot ${sizeClass} ${liveClass}`;
-		return new  Ember.String.htmlSafe(html);
+		//return new  Ember.String.htmlSafe(html);
 	}),
 	livePosition : Ember.computed('onair','tracker', 'slotSize', function(){
 
