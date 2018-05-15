@@ -8,10 +8,10 @@ module.exports = function(environment) {
     rootURL: '/',
     locationType: 'auto',
     firebase: {
-      apiKey: 'xyz',
-      authDomain: 'radio-a8e0f.firebaseapp.com',
-      databaseURL: 'https://radio-a8e0f.firebaseio.com',
-      storageBucket: 'radio-a8e0f.appspot.com',
+      apiKey: process.env.FIREBASE_APIKEY,
+      authDomain: process.env.FIREBASE_AUTHDOMAIN,
+      databaseURL: process.env.FIREBASE_DATABASE_URL,
+      storageBucket: process.env.FIREBASE_STORAGE,
     },
     EmberENV: {
       FEATURES: {
