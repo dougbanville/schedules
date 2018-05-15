@@ -14,6 +14,8 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
+!!IMPORTANT app.options.storeConfigInMeta = false
+
 * `git clone <repository-url>` this repository
 * `cd display-monstrosity`
 * `npm install`
