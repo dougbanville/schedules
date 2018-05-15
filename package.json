@@ -43,7 +43,10 @@
     "ember-truth-helpers": "^2.0.0",
     "emberfire": "^2.0.10",
     "foundation-sites": "^6.4.3",
-    "loader.js": "^4.2.3"
+    "loader.js": "^4.2.3",
+    "fetch": "^1.1.0",
+    "firebase-admin": "^5.12.0",
+    "node-fetch": "^2.1.2"
   },
   "engines": {
     "node": ">= 4"
