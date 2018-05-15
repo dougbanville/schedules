@@ -4,7 +4,7 @@ export default Ember.Route.extend({
 
     model : function(){
         return this.store.query("station",{
-            limitToLast :4
+            limitToLast :13
         });
     }
 });

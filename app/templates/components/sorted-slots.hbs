@@ -1,0 +1,9 @@
+<div class="horizontal">
+    Sorted {{sortedSlots.length}}
+
+    {{#each sortedSlots as |s|}}
+        <p>{{s.start}} {{s.title}} {{s.station_name}}</p>
+    {{/each}}
+</div>
+
+{{yield}}

@@ -136,6 +136,7 @@ export default DS.Model.extend({
 		let stationClass = this.get('station_name');
 		//stationClass = stationClass.replace(2,"two");
 		let html = `${stationClass}`;
+		html = `neutral`;
 		return new  Ember.String.htmlSafe(html);
 	}),
 	sizeClass : Ember.computed('station_name', 'onair', 'slotSize', function(){
@@ -158,7 +159,7 @@ export default DS.Model.extend({
 		//stationClass = stationClass.replace(2,"two");
 		//return stationClass;
 		let html = `slot ${sizeClass} ${liveClass}`;
-		//return new  Ember.String.htmlSafe(html);
+		return new  Ember.String.htmlSafe(html);
 	}),
 	livePosition : Ember.computed('onair','tracker', 'slotSize', function(){
 

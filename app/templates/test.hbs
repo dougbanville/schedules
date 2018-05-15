@@ -1,9 +1,11 @@
-
+{{#time-stripe direction="width" hourSize=200}}{{/time-stripe}}
 <div style="width:{{timeStripeContainerSize }}; height:800px;">
 {{#each model as |station|}}
 <div class="grid-x">
+	<div style="position:absolute; height:200px; background-color:red;">{{station.name}}</div>
 {{#each station.slot as |slot index|}}
-<div class="row horizontal">
+<div class="horizontal">
+	
 		{{#slot-horizontal slot index station.slot.length}}{{/slot-horizontal}}
 </div>
 {{/each}}
@@ -12,4 +14,6 @@
 
 </div>
 {{outlet}}
+
+
 
