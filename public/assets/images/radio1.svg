@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 200"
+	 style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  width="195.5" height="94.5" y="-146.7" x="1.4" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g>
+	<path class="st0" d="M6.2,126.9h1.2L20.5,146h5.9l-13.8-19.5c6.7-0.6,10.8-5.3,10.8-12c0-9.8-7.6-12-15.8-12H1.4V146h4.8V126.9z
+		 M6.2,107h1.4c5.8,0,11,0.7,11,7.8c0,6.7-5.5,7.8-11,7.8H6.2V107z"/>
+	<path class="st0" d="M72.6,146h8c6.8,0,11.9-0.9,17.1-5.5c4.7-4.3,7-9.8,7-16.2c0-6.4-2.2-12.3-7.2-16.5
+		c-5.1-4.4-10.4-5.2-16.9-5.2h-8.1V146z M77.5,141.5v-34.4H81c5.1,0,9.5,0.7,13.4,4.2c3.7,3.3,5.6,8.1,5.6,13
+		c0,4.8-1.8,9.4-5.4,12.7c-3.9,3.7-8.4,4.5-13.6,4.5H77.5z"/>
+	<rect id="XMLID_11_" x="111.6" y="102.6" class="st0" width="4.8" height="43.4"/>
+	<path class="st0" d="M145.5,101.8c-12.3,0-22.5,10.1-22.5,22.5c0,12.5,10.2,22.4,22.5,22.4c12.3,0,22.5-9.9,22.5-22.4
+		C168,111.9,157.8,101.8,145.5,101.8 M145.5,106.3c9.9,0,17.7,8.1,17.7,17.9c0,9.8-7.9,18-17.7,18c-9.8,0-17.7-8.2-17.7-18
+		C127.8,114.4,135.6,106.3,145.5,106.3"/>
+	<polygon id="XMLID_8_" class="st0" points="187.5,102.6 185,107.1 192.1,107.1 192.1,146 196.9,146 196.9,102.6 	"/>
+	<path class="st0" d="M48.5,111.7l7.2,17.4H41.1L48.5,111.7z M47.7,102.5L28.6,146h5.3l5.2-12.4h18.5l5.1,12.4H68l-18.6-43.5H47.7z"
+		/>
+	<g>
+		<path id="XMLID_5_" class="st0" d="M129.5,86.6c-5.7,0-10.6-4.1-11.4-9.9h10.9c1.2,0,3.8,0.3,3.8,0.3v-4.8c0,0-2.6,0.2-4,0.2H118
+			c1.1-5.7,5.8-9.6,11.4-9.6c3,0,6.7,1.4,6.7,1.4l0.1-5c0,0-2.6-1-6.7-1c-9.6,0-17.9,7.3-17.9,16.6c0,10,8.4,16.8,17.9,16.8
+			c4.5,0,7.2-1.2,7.2-1.2l-0.1-5.2C136.5,85.1,133.2,86.6,129.5,86.6"/>
+		<path id="XMLID_4_" class="st0" d="M96.9,91.3c0,0,0.4-2.4,0.4-4.5v-23h-1.6c-2.1,0-5.4,0-7.9,0.2l-0.2-5.4H113l-0.1,5.4
+			c-2.5-0.2-5.7-0.2-7.9-0.2h-1.9v23c0,2.1,0.4,4.5,0.4,4.5H96.9z"/>
+		<path id="XMLID_3_" class="st0" d="M136.3,56c-1.9-0.5-4.3-0.9-6.4-0.9c-5.6,0-10.4,1.7-14.4,5.2l0.1-3.9c4.2-2.9,9-4.2,14.3-4.2
+			c2.3,0,4.3,0.3,6.4,0.9L136.3,56z"/>
+		<path class="st0" d="M85.6,86.9l-8.8-8.5c5.4-0.5,10-4.5,10-9.7c0-5.5-3.2-10.4-12.6-10.7c-0.4,0-0.8,0-1.2,0
+			c-6.5,0-11,0.3-11,0.3s0.3,3.2,0.3,4.8v23.8c0,2.2-0.4,4.5-0.4,4.5h6.6c0,0-0.4-2.3-0.4-4.9v-9.7l6.2,6.5l3.1,3.2
+			c1.9,2.1,5.3,4.8,5.3,4.8h8.7C91.3,91.3,87.4,88.6,85.6,86.9 M72.6,74.5h-4.7V62.6c0,0,2.3-0.1,5-0.1c0.4,0,0.8,0,1.2,0
+			c4.4,0.4,6.2,2.7,6.2,5.6c0,3.2-2.6,5.7-6.2,6.2C73.6,74.5,73.1,74.5,72.6,74.5"/>
+	</g>
+</g>
+</svg>

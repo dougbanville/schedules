@@ -9,6 +9,7 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('test');
   this.route('stations');
+  this.route('admin');
 });
 
 export default Router;

@@ -1,13 +1,10 @@
 <div class="channel_key" style={{{tracker.menuLocation}}}>
-	<div class="radio1key"></div>
-	<div class="twofmkey"></div>
-	<div class="rnagkey"></div>
-	<div class="lyrickey"></div>
-	<div class="twoxmkey"></div>
-	<div class="goldkey"></div>
-	<div class="juniorkey"></div>
-	<div class="pulsekey"></div>
-	<div class="radio1extrakey"></div>
+	{{#each stations as |station|}}
+		<div class="stationkey">
+					<img src="assets/images/{{station.slug}}.png" alt="" style="width:150px;">
+		</div>
+	{{/each}}
+
 </div>
 {{#if tracker.timeStripeActive }}
 <div id="timeStripe" class={{tsClass}}>{{yield}}</div>

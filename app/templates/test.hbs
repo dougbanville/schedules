@@ -1,14 +1,17 @@
-{{#time-stripe direction="width" hourSize=200}}{{/time-stripe}}
+{{#time-stripe direction="width" hourSize=200 stations=sortedStations}}{{/time-stripe}}
 <div style="width:{{timeStripeContainerSize }}; height:800px;">
-{{#each model as |station|}}
+{{#each sortedStations as |station|}}
 <div class="grid-x">
-	<div style="position:absolute; height:200px; background-color:red;">{{station.name}}</div>
+	<div style="position:absolute; height:200px; background-color:rgba(0,0,0,0.8);;">
+		<img src="assets/images/{{station.slug}}.png" alt="" style="width:150px;"></div>
+	{{#if station.slot}}
 {{#each station.slot as |slot index|}}
 <div class="horizontal">
 	
 		{{#slot-horizontal slot index station.slot.length}}{{/slot-horizontal}}
 </div>
 {{/each}}
+{{/if}}
 </div>
 {{/each}}
 

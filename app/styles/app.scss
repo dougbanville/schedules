@@ -24,51 +24,55 @@ body {
 	background:rgba(0,0,0,0.4);
 	z-index:10;
 	background-repeat: no-repeat;
+	.stationkey{
+		height: $fmHeight;
+		background-repeat: no-repeat;
+	}
 	.radio1key{
 		height: $fmHeight;
-		background: url(../images/radio1.svg);
+		background: url(images/radio1.svg);
 		background-repeat: no-repeat;
 
 	}
 	.twofmkey{
 		height: $fmHeight;
-		background: url(../images/2fm.png);
+		background: url(images/2fm.png);
 		background-size: 60px;
 		background-repeat: no-repeat;
 	}
 	.rnagkey{
 		height: $fmHeight;
-		background: url(../images/rnag.svg);
+		background: url(images/rnag.svg);
 		background-repeat: no-repeat;
 	}
 	.lyrickey{
 		height: $fmHeight;
-		background: url(../images/lyricfm.svg);
+		background: url(images/lyricfm.svg);
 		background-repeat: no-repeat;
 	}
 	.twoxmkey{
 		height: $digitalHeight;
-		background: url(../images/twoxm.svg);
+		background: url(images/twoxm.svg);
 		background-repeat: no-repeat;
 	}
 	.goldkey{
 		height: $digitalHeight;
-		background: url(../images/gold.svg);
+		background: url(images/gold.svg);
 		background-repeat: no-repeat;
 	}
 	.juniorkey{
 		height: $digitalHeight;
-		background: url(../images/junior.svg);
+		background: url(images/junior.svg);
 		background-repeat: no-repeat;
 	}
 	.pulsekey{
 		height: $digitalHeight;	
-		background: url(../images/pulse.svg);
+		background: url(images/pulse.svg);
 		background-repeat: no-repeat;
 	}
 	.radio1extrakey{
 		height: $digitalHeight;
-		background: url(../images/radio1extra.svg);
+		background: url(images/radio1extra.svg);
 		background-repeat: no-repeat;
 	}
 }

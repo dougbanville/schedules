@@ -1,0 +1,16 @@
+<table>
+    {{#each model as |s|}}
+    <tr>
+        <td>{{s.name}}</td>
+        <td>{{input value=s.order}}</td>
+        <td>
+            <button class="button" {{action "saveOrder" s}}>Save</button>
+        </td>
+    </tr>
+    
+    {{/each}}
+</table> 
+
+    
+
+{{outlet}}
